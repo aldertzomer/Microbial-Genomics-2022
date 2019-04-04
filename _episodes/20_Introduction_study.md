@@ -17,7 +17,7 @@ keypoints:
 
 ## Introduction
 
-We will be making use of the Etherpad used in the first two days: [http://pad.software-carpentry.org/2018-04-03-Utrecht](http://pad.software-carpentry.org/2018-04-03-Utrecht).
+We will be making use of Google Docs: [https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit](https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit).
 The Etherpad contains the link to the shared documents, the IP address of the server, etc.
 
 ### Dataset
@@ -27,10 +27,10 @@ Introduction to the dataset is given here: [https://www.dropbox.com/s/hi7ivyml0v
 ### How to login
 
 Follow the instructions at [https://aschuerch.github.io/Microbial-Genomics-2018/02-intro-cloud/index.html](https://aschuerch.github.io/Microbial-Genomics-2018/02-intro-cloud/index.html).
-Use the ip address listed in the Etherpad. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the etherpad).
+Use the hostname listed in the Etherpad. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the Google Docs file).
 
 ### Where are the files located
 
-In your home folder (~/ , /home/student<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combined the outputs of each person later on.
+In your home folder (~/ , /home/molepi<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combined the outputs of each person later on.
   
   
