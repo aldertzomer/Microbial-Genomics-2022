@@ -18,7 +18,7 @@ keypoints:
 ## Introduction
 
 We will be making use of Google Docs: [https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit](https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit).
-The Etherpad contains the link to the shared documents, the IP address of the server, etc. We will be working in pairs. 
+The Etherpad contains the link to the shared documents, the IP address of the server, etc. 
 
 ### Dataset
 
@@ -31,6 +31,6 @@ Use the hostname listed in the Etherpad. We will be using a shared server as the
 
 ### Where are the files located
 
-In your home folder (~/ , /home/molepi<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per pair. We will combined the outputs of each person later on.
+In your home folder (~/ , /home/molepi<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only one genomes per person. We will combined the outputs of each person later on.
   
   
