@@ -41,7 +41,7 @@ $ quast.py ERR340887.fasta -o quast_ERR326690
 ~~~
 {: .bash}
 
-Access the folder using your webbrowser (point it to http://amazonipadres/home/student<nr> ) and go to the right folder. 
+Access the folder using your webbrowser (point it to http://klif2.uu.nl/courses/molepi<nr>/ ) and go to the right folder. 
 
 Question: Think of a few situations where genome size, number of contigs or N50 would be less useful
 
