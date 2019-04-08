@@ -46,7 +46,7 @@ To extract the gff files, we will make use of the roary script "query_pan_genome
 
 ~~~
 $ cd ~/orthology
-$ query_pan_genome -a gene_multifasta -n $list ~/annotation/*.gff
+$ query_pan_genome -a gene_multifasta -n $list ~/gff/*.gff
 $ ls
 ~~~
 {: .bash}
