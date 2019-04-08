@@ -58,7 +58,7 @@ The names of the contigs produced by SPades are quite long. PROKKA needs name wh
 
 ~~~
 $ cd ~/assembly
-$ for sample in genome1 genome2
+$ for sample in ERR326690 ERR326694
 > do
 >  cut -f 1,2 -d "_" "$sample"/scaffolds.fasta | sed s/NODE/C/g > "$sample".fasta
 > done
@@ -67,7 +67,7 @@ $ for sample in genome1 genome2
 Let's see what this has done. First let's have a look at the original files.
 
 ~~~
-$ head -n10 genome1/scaffolds.fasta
+$ head -n10 ERR326690/scaffolds.fasta
 ~~~
 {: .bash}
 
@@ -88,7 +88,7 @@ CGGTGATGTTGGCCGGCGTGATACCGGCCAGCGACTGACCGGGACTGATAATGCCAGGAC
 Now, let's inspect the new file
 
 ~~~
-$ head -n10 genome1.fasta
+$ head -n10 ERR326690.fasta
 ~~~
 {: .bash}
 
@@ -109,7 +109,7 @@ CGGTGATGTTGGCCGGCGTGATACCGGCCAGCGACTGACCGGGACTGATAATGCCAGGAC
 The header was shortened to less than 20 characters. It is important that each header is still unique. We can check this by inspecting a few headers.
 
 ~~~
-$ grep  ">" genome1.fasta
+$ grep  ">" ERR326690.fasta
 ~~~
 {: .bash}
 
@@ -154,7 +154,7 @@ The parameter --prefix assigns the sample name as a prefix to all files. If we o
 
 ~~~
 $ cd ~/
-$ for sample in genome1 genome2 ; do
+$ for sample in ERR326690 ERR326694 ; do
   prokka --outdir annotation/"$sample" --prefix $sample assembly/"$sample".fasta --usegenus -genus Streptococcus --cpus 1
 done
 ~~~
