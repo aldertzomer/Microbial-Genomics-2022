@@ -155,7 +155,7 @@ The parameter --prefix assigns the sample name as a prefix to all files. If we o
 ~~~
 $ cd ~/
 $ for sample in ERR326690 ERR326694 ; do
-  prokka --outdir annotation/"$sample" --prefix $sample assembly/"$sample".fasta --usegenus -genus Streptococcus --cpus 1
+  prokka --outdir annotation/"$sample" --prefix $sample assembly/"$sample".fasta --usegenus -genus Streptococcus --cpus 1 --rawproduct
 done
 ~~~
 {: .bash}
