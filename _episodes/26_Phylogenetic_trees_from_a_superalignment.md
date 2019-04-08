@@ -81,7 +81,7 @@ Inspect the superalignment. How many residues are in the alignment?. Also downlo
 
 ## Visualizing phenotypes
 
-It is possible to color the labels of the trees using the "Import Annotations" option. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. 
+It is possible to color the labels of the trees using the "Import Annotations" option in Figtree. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. 
 
 Is there a specific clone associated with mortality? Inspect both the gene presence absence tree and the tree from the superalignment of ribosomal proteins. 
 
