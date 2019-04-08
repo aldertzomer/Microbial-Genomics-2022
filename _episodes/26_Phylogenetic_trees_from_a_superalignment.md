@@ -39,7 +39,7 @@ Next we do some shell magic to go from a column with names to a comma separated 
 
 ~~~
 $ list=`grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \" |tr "\n" "," |sed 's/,$//'`
-echo $list
+$ echo $list
 ~~~
 {: .bash}
 
