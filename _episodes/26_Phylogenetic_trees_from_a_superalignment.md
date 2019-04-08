@@ -39,6 +39,7 @@ Next we do some shell magic to go from a column with names to a comma separated 
 
 ~~~
 $ list=`grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \" |tr "\n" "," |sed 's/,$//'`
+echo $list
 ~~~
 {: .bash}
 
@@ -58,6 +59,7 @@ Query_pan_genome has generated for every gene a file with the unaligned protein 
   ~~~
 $ cd ~/orthology
 $ genes=`echo $list |tr "," " "`
+$ echo $genes
 $ for gene in ${genes} ; do 
     mafft pan_genome_results_"$gene".fa  |cut -f 1 -d _ > aligned_"$gene".fa
   done
