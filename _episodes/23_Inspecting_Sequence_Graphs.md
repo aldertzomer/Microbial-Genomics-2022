@@ -53,7 +53,7 @@ Click on a few large contigs. What is the average coverage?
 
 ### Selecting a contig with high coverage
 
-Now, we will select a contig which has a 3x higher coverage. Click on Scope, select depth range. Fill in for min coverage 200 and max coverage 1000  (or other values, around 3x the average contig depth). Press Draw Graph. What contigs are now displayed? Why do these have a higher coverage? 
+Now, we will select a contig which has a 3x higher coverage. Click on Scope, select depth range. Fill in for min coverage 100 and max coverage 1000  (or other values, around 3x the average contig depth). Press Draw Graph. What contigs are now displayed? Why do these have a higher coverage? 
 
 ### Investigating a contig with high coverage using Bandage and BLAST
 
