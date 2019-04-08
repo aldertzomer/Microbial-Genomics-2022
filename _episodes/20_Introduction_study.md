@@ -18,7 +18,7 @@ keypoints:
 ## Introduction
 
 We will be making use of Google Docs: [https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit](https://docs.google.com/document/d/19RkKurPgTVAOrzZINQBKUjb2CkMRrsxjejERBvUJCq0/edit).
-The Etherpad contains the link to the shared documents, the IP address of the server, etc. 
+The Google doc contains the link to the shared documents, the IP address of the server, etc. 
 
 ### Dataset
 
