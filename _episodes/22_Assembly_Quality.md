@@ -20,7 +20,8 @@ In the previous lesson you have investigated the number of contigs. Other statis
 Getting the genome size is basically just counting the bases in a fasta file and excluding the fasta header (containing ">"). Unfortunately the end of line character ("\n") needs to be removed as well as else this character will be counted as well. We use the GNU tool "tr" for that.  
 
 ~~~
-$ cat ERR340887.fasta |grep -v ">" |tr -d "\n" | wc
+$ cd ~/assembly/ERR326690
+$ cat scaffolds.fasta |grep -v ">" |tr -d "\n" | wc
 ~~~
 {: .bash}
 
@@ -37,7 +38,7 @@ It would be possible to generate the N50 by hand, however we will be making use 
 
 Quast can be run by the following commandline and will generate a folder called quast_ERR326690 containing interesting statistics:
 ~~~
-$ quast.py ERR340887.fasta -o quast_ERR326690
+$ quast.py scaffolds.fasta -o quast_ERR326690
 ~~~
 {: .bash}
 
