@@ -31,6 +31,6 @@ Use the hostname listed in the Etherpad. We will be using a shared server as the
 
 ### Where are the files located
 
-In your home folder (~/ , /home/molepi<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only one genomes per person. We will combined the outputs of each person later on.
+In your home folder (~/ , /home/molepi<nr>), you will find the directory "reads" which contains symlinks to the read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combined the outputs of each person later on.
   
   
