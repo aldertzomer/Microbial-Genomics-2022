@@ -60,7 +60,7 @@ $ ls ~/gff/*.gff
 ~~~
 {: .source}
 
-then we can go to the orthology directory and start roary. the -p 1 option tells Roary to use two CPU cores, the -s option tells it to disregard genetic context, as we are looking at draft assemblies with different contigs, the -r option generates some interesting plots in R. The 1> and 2> redirect the standard screen output and the error output to a file for later viewing. The -f option tells it where to store the output files (the folder orthology). Roary needs quite some CPU power. 
+then we can go to your home folder again and start roary. the -p 1 option tells Roary to use two CPU cores, the -s option tells it to disregard genetic context, as we are looking at draft assemblies with different contigs, the -r option generates some interesting plots in R. The 1> and 2> redirect the standard screen output and the error output to a file for later viewing. The -f option tells it where to store the output files (the folder orthology). Roary needs quite some CPU power. 
 
 ~~~
 $ cd ~
