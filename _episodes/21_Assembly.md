@@ -22,7 +22,7 @@ The assembler we will run is [SPAdes](http://cab.spbu.ru/software/spades/). SPAd
 
 ## Assembly
 
-Because assembly of each genome might take a while, we will a assemble two isolates per person. Reads have already been trimmed and error corrected. When the assembly has started for most people we can follow the assembly lecture https://www.dropbox.com/s/29h5czyw8dlmnbk/assembly_lecture_bas.pdf?dl=0
+Because assembly of each genome might take a while, we will a assemble two isolates per person. Reads have already been trimmed and error corrected. When the assembly has started for most people we can follow the assembly [lecture] (https://www.dropbox.com/s/29h5czyw8dlmnbk/assembly_lecture_bas.pdf?dl=0) 
 
 Preparation
 ~~~
