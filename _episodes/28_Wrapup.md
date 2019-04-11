@@ -11,6 +11,6 @@ keypoints:
 ---
 
 ## Wrapup
-The complete story describes platelet activation by the PblB protein. Slides: [https://www.dropbox.com/s/hi7ivyml0vle2k1/Bacterial%20GWAS%20DEC%202018.pptx?dl=0](https://www.dropbox.com/s/hi7ivyml0vle2k1/Bacterial%20GWAS%20DEC%202018.pptx?dl=0)
+The complete story describes platelet activation by the PblB protein. Slides: [https://www.dropbox.com/s/uzqq38nc7gmnrkf/Bacterial%20GWAS%20DEC%202018%20Part%202.pptx?dl=0](https://www.dropbox.com/s/uzqq38nc7gmnrkf/Bacterial%20GWAS%20DEC%202018%20Part%202.pptx?dl=0)
 
 The full manuscript can be found here: [http://mbio.asm.org/content/8/1/e01984-16](http://mbio.asm.org/content/8/1/e01984-16).
