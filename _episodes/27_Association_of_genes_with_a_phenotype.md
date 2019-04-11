@@ -25,7 +25,7 @@ Copy and paste the columns with the names and patient outcome in a file, includi
 ~~~
 $ cd ~/orthology
 $ mcedit traits.txt
-#copy paste the two columns, save the file, exit mcedit
+#copy paste the two columns (press shift, left or middle mouse button), save the file, exit mcedit
 $ cat traits.txt |tr "\t" "," > traits.csv
 ~~~
 {: .bash}
