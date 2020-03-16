@@ -1,6 +1,6 @@
 ---
 title: "Sequence Quality"
-exercises: 30
+exercises: 60
 questions:
 - "What is the N50 ?"
 - "What are the different methods for assembly?"
