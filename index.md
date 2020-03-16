@@ -9,7 +9,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 > This practical is part of the Microbial Genomics practical course of Utrecht University
 >  
 > 1.  Working with genome assemblies, QC and annotation of genomes
-> 2.  Pangenome analysis and GWAS
+> 2.  Pangenome analysis, genomic phylogenetic trees and GWAS
 
 > ## Data
 >
