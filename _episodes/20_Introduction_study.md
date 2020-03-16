@@ -1,6 +1,6 @@
 ---
 start: true
-title: "Introduction Day3"
+title: "Introduction"
 exercises: 30
 teaching: 20
 questions:
@@ -26,8 +26,8 @@ Introduction to the dataset is given here: [https://www.dropbox.com/s/hi7ivyml0v
 
 ### How to login
 
-Follow the instructions at [https://aschuerch.github.io/Microbial-Genomics-2018/02-intro-cloud/index.html](https://aschuerch.github.io/Microbial-Genomics-2018/02-intro-cloud/index.html).
-Use the hostname listed in the Etherpad. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the Google Docs file).
+Follow the instructions at <google docs file>.
+The server we will be using is named klif2.uu.nl, ipaddress: 131.211.18.6. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the Google Docs file). It is possible to access the server using our Jupyterhub system [https://klif2.uu.nl}(https://klif2.uu.nl), however use of MobaXterm is recommended. 
 
 ### Where are the files located
 
