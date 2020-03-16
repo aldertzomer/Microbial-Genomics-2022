@@ -22,7 +22,7 @@ The Google doc contains the link to the shared documents, the IP address of the 
 
 ### Dataset
 
-Introduction to the dataset is given here: [https://www.dropbox.com/s/hi7ivyml0vle2k1/Bacterial%20GWAS%20DEC%202018.pptx?dl=0](https://www.dropbox.com/s/hi7ivyml0vle2k1/Bacterial%20GWAS%20DEC%202018.pptx?dl=0) . In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141). 
+Introduction to the dataset is given in the Google Doc. In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141).
 
 ### How to login
 
