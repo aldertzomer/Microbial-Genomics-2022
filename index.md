@@ -20,4 +20,3 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 In these lessons you will learn how to assemble genomes, how to check for problems in assemblies, how to annotate genomes, how to work with annotations, how to determine the pan genome and the core genome and finally you will associate gene presence/absence with phenotypes using contingency testing ("GWAS"). 
 
-{% include links.md %}
