@@ -1,7 +1,7 @@
 ---
 title: "Inspecting sequence graphs"
-teaching: 10
-exercises: 50
+teaching: 20
+exercises: 70
 questions:
 - "Can we find out which scaffolds or contigs are connected?"
 objectives:
