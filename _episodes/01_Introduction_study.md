@@ -27,7 +27,7 @@ Introduction to the dataset is given in the Google Doc. In total we will be anal
 ### How to login
 
 Follow the instructions at <google docs file>.
-The server we will be using is named klif2.uu.nl, ipaddress: 131.211.18.6. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the Google Docs file). It is possible to access the server using our Jupyterhub system [https://klif2.uu.nl](https://klif2.uu.nl), however use of MobaXterm is recommended. 
+The server we will be using is named klif2.uu.nl, ipaddress: 131.211.18.6. We will be using a shared server as the tools used for this part of the course require more computing power and small single Amazon instances will not be sufficient. As a consequence, everyone has their own username/password (see the Google Docs file). It is possible to access the server using our Jupyterhub system [https://klif2.uu.nl](https://klif2.uu.nl) , however use of MobaXterm is recommended. 
 
 ### Where are the files located
 
