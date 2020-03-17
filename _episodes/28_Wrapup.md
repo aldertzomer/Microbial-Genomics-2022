@@ -1,5 +1,5 @@
 ---
-title: "Wrapup Day 3 and 4"
+title: "Wrapup"
 exercises: 0
 teaching: 20
 questions:
