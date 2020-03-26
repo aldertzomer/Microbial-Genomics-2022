@@ -1,6 +1,6 @@
 ---
 title: "Annotation"
-start: true
+start: false
 teaching: 10
 exercises: 50
 questions:
