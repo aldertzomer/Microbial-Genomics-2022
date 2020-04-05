@@ -95,7 +95,11 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 > >
 > > 
 > > ~~~
-> > quast.py ERR326690.fasta -o quast_ERR326690 
+> > $ mkdir ~/genomes
+> > $ cp ~/assembly/ERR326690/scaffolds.fasta ~/genomes/ERR326690.fasta
+> > $ cp ~/assembly/ERR326694/scaffolds.fasta ~/genomes/ERR326694.fasta
+> > $ cd ~/genomes/
+> > $ quast.py ERR326690.fasta -o quast_ERR326690 
 > > Open report.html in web browser
 > >
 > > $ checkm taxon_list |grep Streptococcus
@@ -103,6 +107,9 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 > > species   Streptococcus pneumoniae                                20           846              160
 > > 
 > > $ checkm taxonomy_wf species "Streptococcus pneumoniae" . checkmout -t 1 -x ERR326690.fasta  >checkmoutput.tsv
+> > or
+> > $ cd ~
+> > $ checkm taxonomy_wf species "Streptococcus pneumoniae" genomes checkmout -t 1 -x fasta  > checkmoutput.tsv
 > > $ cat checkmoutput.tsv
 > > ~~~
 > > {: .output}
