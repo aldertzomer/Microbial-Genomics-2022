@@ -30,11 +30,11 @@ Questions: What does the -v option do in the grep command? And what does the wc 
 ### Generating the N50
 
 From wikipedia:
-N50 can be described as a weighted median statistic such that 50% of the entire assembly is contained in contigs or scaffolds equal to or larger than this value. Given a set of contigs, each with its own length, the N50 length is defined as the shortest sequence length at 50% of the genome. The N50 is similar to a mean or median of lengths, but has greater weight given to the longer contigs. 
+N50 can be described as a weighted median statistic such that 50% of the entire assembly is contained in contigs or scaffolds equal to or larger than this value. Given a set of contigs, each with its own length, the N50 length is defined as the shortest sequence length at 50% of the genome. The N50 is similar to a mean or median of lengths, but has greater weight given to the longer contigs. The N75 is defined as the shortest sequence length at 75% of the genome.
 
-It can be thought of as the point of half of the mass of the distribution; the number of bases from all contigs longer than the N50 will be close to the number of bases from all contigs shorter than the N50. For example, consider 9 contigs with the lengths 2,3,4,5,6,7,8,9,and 10; their sum is 54, half of the sum is 27, and the size of the genome also happens to be 54. 50% of this assembly would be 10 + 9 + 8 = 27 (half the length of the sequence). Thus the N50=8, which is the size of the contig which, along with the larger contigs, contain half of sequence of a particular genome. Note: When comparing N50 values from different assemblies, the genomes must have similar sizes.
+It can be thought of as the point of half of the mass of the distribution; the number of bases from all contigs longer than the N50 will be close to the number of bases from all contigs shorter than the N50. For example, consider 9 contigs with the lengths 2,3,4,5,6,7,8,9,and 10; their sum is 54, half of the sum is 27, and the size of the genome also happens to be 54. 50% of this assembly would be 10 + 9 + 8 = 27 (half the length of the sequence, starting from the largest). Thus the N50=8, which is the size of the contig which, along with the larger contigs, contain half of sequence of a particular genome. Note: When comparing N50 values from different assemblies, the genomes must have similar sizes.
 
-It would be possible to generate the N50 by hand, however we will be making use of the tool called QUAST ( http://quast.sourceforge.net/quast )
+We can generate the N50, the N75 or N90 by hand, but we will also be making use of the tool called QUAST ( http://quast.sourceforge.net/quast )
 
 Quast can be run by the following commandline and will generate a folder called quast_ERR326690 containing interesting statistics:
 ~~~
@@ -44,7 +44,8 @@ $ quast.py scaffolds.fasta -o quast_ERR326690
 
 Access the folder using your webbrowser (point it to http://klif2.uu.nl/courses/ ) and go to the right folder. 
 
-Question: Think of a few situations where genome size, number of contigs or N50 would be less useful
+Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool. Is there a difference? why? 
+Question 2: Think of a few situations where genome size, number of contigs or N50 would be less useful
 
 
 ### Assessing the quality using single copy chromosomal marker genes.
