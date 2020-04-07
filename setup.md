@@ -18,13 +18,6 @@ You will need a terminal program to access the remote machine. This is already a
 - To use it, double-click on the download file
 - Follow the installation instructions, if any 
 
-## MacOSX
-### R
- - Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg) from [CRAN](http://cran.r-project.org/index.html)
- - Also, please install [RStudio](http://www.rstudio.com/ide/download/desktop)
- - After starting RStudio, at the console type: install.packages(c("tidyverse", "RSQLite"))
-
-
 ## Linux, Windows and Mac 
 
 ### FTP Client (Filezilla)
