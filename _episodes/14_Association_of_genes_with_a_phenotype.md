@@ -20,7 +20,7 @@ We will therefore try to find out if there are specific virulence factors that a
 
 An excellent primer on bacterial GWAS is available here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743258/ . We will make use of the tool "Scoary" ( https://github.com/AdmiralenOla/Scoary ), a tool complementary to Roary. Scoary has implemented several GWAS methods into one tool. Scoary needs a comma separated list of strain characteristics (phenotypes). 
 
-Copy and paste the columns with the names and patient outcome in a file, including the "Name<tab>Mortality" header. Any texteditor can be used but in this example mcedit is used. The file can also be made on your own computer and uploaded using filezilla, scp, etc.
+Copy and paste the columns with the names and patient outcome in a file from the assembly statistics excel file, including the "Name<tab>Mortality" header. Any texteditor can be used but in this example mcedit is used. The file can also be made on your own computer and uploaded using filezilla, scp, etc.The header (first line) should start with Name followed by the phenotype (Mortality). 
 
 ~~~
 $ cd ~/orthology
