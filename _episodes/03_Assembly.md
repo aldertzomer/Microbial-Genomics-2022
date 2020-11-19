@@ -33,7 +33,7 @@ $ cd ~/reads
 ~~~
 {: .bash}
 
-To run SPAdes we will use the spades.py command with the --only-assembler option as the reads have already been corrected, -o for the output folder, -1 for the path to the forward reads, -2 for the path to the reverse reads. We will be using the standard k-mer sizes of 21, 33 and 55 basepair. We can start the loop with the assemblies. The following is an example. Replace ERR026473 and ERR026474 with the names of your isolates
+To run SPAdes we will use the spades.py command with the --isolate option as we are assembling isolate genomic data, -o for the output folder, -1 for the path to the forward reads, -2 for the path to the reverse reads. We will be using the standard k-mer sizes of 21, 33 and 55 basepair. We can start the loop with the assemblies. The following is an example. Replace ERR026473 and ERR026474 with the names of your isolates
 
 ~~~
 $ ls
