@@ -27,7 +27,7 @@ Introduction to the dataset is given in the powerpoint. In total we will be anal
 ### How to login
 
 Follow the instructions at as before. 
-The server we will be using has ip address 3.139.141.189. Use of MobaXterm, PuTTY, ssh is recommended. 
+The server we will be using has ip address 3.139.141.189. Please login using SSH (exactly like before). Use of MobaXterm, PuTTY, ssh is recommended. 
 
 ### Where are the files located
 
