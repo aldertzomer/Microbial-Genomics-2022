@@ -1,4 +1,5 @@
 ---
+start: true
 title: "Bacterial GWAS"
 teaching: 45
 exercises: 45
