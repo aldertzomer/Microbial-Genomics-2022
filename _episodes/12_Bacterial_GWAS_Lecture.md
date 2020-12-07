@@ -1,5 +1,5 @@
 ---
-start: false
+start: true
 title: "Bacterial GWAS Lecture"
 exercises: 0
 teaching: 60
