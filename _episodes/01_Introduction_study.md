@@ -1,5 +1,4 @@
 ---
-start: true
 title: "Introduction"
 exercises: 240
 teaching: 20
