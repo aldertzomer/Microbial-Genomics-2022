@@ -2,7 +2,7 @@
 start: false
 title: "Bacterial GWAS"
 teaching: 0
-exercises: 45
+exercises: 90
 questions:
 - "Which genes are associated with patient mortality"
 objectives:
