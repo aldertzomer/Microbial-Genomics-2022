@@ -1,7 +1,7 @@
 ---
 start: true
 title: "Introduction"
-exercises: 60
+exercises: 240
 teaching: 20
 questions:
 - "Where does the dataset come from?"
