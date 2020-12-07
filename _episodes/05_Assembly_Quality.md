@@ -3,11 +3,11 @@ title: "Sequence Quality"
 exercises: 60
 questions:
 - "What is the N50 ?"
-- "What are the different methods for assembly?"
+- "What are single copy chromosomal marker genes ?"
 objectives:
 - "Learning to use assembly quality assessment tools"
 keypoints:
-- "Quality of a genome assembly can be assessed by looking at some basic statistics on the assembly, but also by using and external reference"
+- "Quality of a genome assembly can be assessed by looking at some basic statistics on the assembly, but also by using an external reference"
 ---
 
 To investigate if your sequenced genome is of sufficient quality to be used, various statistics on the genome assembly can be gathered. Some are simple (e.g. number of contigs, genome sizes, N50), some require the use of a reference genome or reference genes.
