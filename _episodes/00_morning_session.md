@@ -1,6 +1,6 @@
 ---
 start: true
 title: "Morning session"
-exercises: 180
+exercises: 240
 teaching: 0
 ---
