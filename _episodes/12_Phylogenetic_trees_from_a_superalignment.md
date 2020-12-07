@@ -1,4 +1,5 @@
 ---
+start: true
 title: "Phylogenetic trees from the core genome"
 teaching: 10
 exercises: 50
