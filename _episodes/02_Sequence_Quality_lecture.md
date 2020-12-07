@@ -1,6 +1,6 @@
 ---
 start: false
-title: "Lecture"
+title: "Sequence Read Quality Lecture"
 exercises: 0
 teaching: 20
 questions:
