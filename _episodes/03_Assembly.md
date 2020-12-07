@@ -1,7 +1,7 @@
 ---
 title: "Sequence assembly"
 exercises: 60
-teaching: 0
+teaching: 10
 questions:
 - "How can the information in the sequencing reads be reduced?"
 - "What are the different methods for assembly?"
