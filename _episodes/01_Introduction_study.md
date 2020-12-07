@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-exercises: 240
+exercises: 10
 teaching: 20
 questions:
 - "Where does the dataset come from?"
