@@ -20,3 +20,5 @@ We will make use of a prerecorded lecture by Bas Dutilh, lecturer at Theoretical
 [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
 The lecture will take 17 minutes. 
+
+{% include links.md %}
