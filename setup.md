@@ -35,7 +35,7 @@ An FTP client will help you transfer files easily between your computer and the 
 - Other browsers will likely work as well but no guarantees
 
 ### Visualization software
-- Go to https://github.com/rambaut/figtree/releases and download Figtree (zip for windows, dmg for mac, .tgz for linux)
-- Go to https://rrwick.github.io/Bandage/ and download Bandage
+- Go to [https://github.com/rambaut/figtree/releases](https://github.com/rambaut/figtree/releases) and download Figtree (zip for windows, dmg for mac, .tgz for linux)
+- Go to [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/) and download Bandage
 
 {% include links.md %}
