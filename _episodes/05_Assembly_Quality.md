@@ -42,7 +42,7 @@ $ quast.py scaffolds.fasta -o quast_ERR326690
 ~~~
 {: .bash}
 
-Access the folder using your webbrowser (point it to http://klif2.uu.nl/courses/ ) and go to the right folder. 
+Access the folder using your webbrowser (point it to http://3.139.141.189/homes/ ) and go to the right folder. 
 
 Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool. Is there a difference? why? ( investigate the "--min-contig " option in QUAST)
 
