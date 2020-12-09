@@ -39,7 +39,7 @@ To run SPAdes we will use the spades.py command with the --isolate option as we 
 $ ls
 
 $ for sample in ERR026473 ERR026474  ; do
-    spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/$sample  -t 1
+    spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/$sample  --only-assembler -t 1
   done
 
 $ cd ~/assembly
