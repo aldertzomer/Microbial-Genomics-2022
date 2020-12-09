@@ -29,8 +29,13 @@ An FTP client will help you transfer files easily between your computer and the 
 - Follow any installation instructions, if any
 - At the workshop we will give you additional information (e.g. host, username, port) to connect
 
-### Chrome
+### Web browser
 - Go to the [Chrome download page](https://www.google.com/chrome/browser/desktop/index.html)
 - Click and the button and install Chrome
+- Other browsers will likely work as well but no guarantees
+
+### Visualization software
+- Go to https://github.com/rambaut/figtree/releases and download Figtree (zip for windows, dmg for mac, .tgz for linux)
+- Go to https://rrwick.github.io/Bandage/ and download Bandage
 
 {% include links.md %}
