@@ -66,8 +66,8 @@ The assemblies for every k-mer setting are found in the folders marked K21, K33 
 > >
 > > 
 > > ~~~
-> > $ grep -c '>'  ERR*/K21/final_contigs.fasta
-> > $ grep -c '>'  ERR*/K33/final_contigs.fasta
+> > $ grep -c '>'  ERR*/K21/simplified_contigs.fasta
+> > $ grep -c '>'  ERR*/K33/simplified_contigs.fasta
 > > $ grep -c '>'  ERR*/K55/final_contigs.fasta
 > > $ grep -c '>'  ERR*/contigs.fasta
 > > $ grep -c '>'  ERR*/scaffolds.fasta
