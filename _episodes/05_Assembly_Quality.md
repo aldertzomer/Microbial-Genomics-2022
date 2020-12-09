@@ -99,7 +99,7 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 > > $ cp ~/assembly/ERR326690/scaffolds.fasta ~/genomes/ERR326690.fasta
 > > $ cp ~/assembly/ERR326694/scaffolds.fasta ~/genomes/ERR326694.fasta
 > > $ cd ~/genomes/
-> > $ quast.py ERR326690.fasta -o quast_ERR326690 
+> > $ quast.py ERR326690.fasta -o quast_ERR326690 --min-contig 0
 > > Open report.html in web browser
 > >
 > > $ checkm taxon_list |grep Streptococcus
