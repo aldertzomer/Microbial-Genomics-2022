@@ -40,13 +40,13 @@ Quast can be run by the following commandline and will generate a folder called 
 ~~~
 $ quast.py scaffolds.fasta -o quast_ERR326690
 ~~~
-
+{: .bash}
 
 The contig sizes from an assembly by SPAdes can be obtained by:
 ~~~
 $ cat scaffolds.fasta  |grep ">" |cut -f 4 -d _
 ~~~
-
+{: .bash}
 
 
 Access the folder using your webbrowser (point it to http://3.139.141.189/homes/ ) and go to the right folder. 
