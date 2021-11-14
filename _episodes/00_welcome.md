@@ -1,6 +1,6 @@
 ---
 start: true
-title: "Morning session"
+title: "Welcome"
 exercises: 0
 teaching: 15
 ---
