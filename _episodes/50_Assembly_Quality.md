@@ -52,9 +52,9 @@ $ cat scaffolds.fasta  |grep ">" |cut -f 4 -d _
 Access the folder using your webbrowser and go to the right folder. 
 
 
-## Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool with and without the --min-contig option. Is there a difference? why? 
+#### Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool with and without the --min-contig option. Is there a difference? why? 
 
-## Question 2: Think of a few situations where genome size, number of contigs or N50 would be less useful
+#### Question 2: Think of a few situations where genome size, number of contigs or N50 would be less useful
 
 
 ### Assessing the quality using single copy chromosomal marker genes.
