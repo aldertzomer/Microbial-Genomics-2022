@@ -1,6 +1,6 @@
 ---
 start: false
-title: "morning break"
+title: "Morning break"
 exercises: 0
 teaching: 15
 keypoints:
