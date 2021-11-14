@@ -21,14 +21,13 @@ We will therefore try to find out if there are specific virulence factors that a
 
 An excellent primer on bacterial GWAS is available here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743258/ . We will make use of the tool "Scoary" ( https://github.com/AdmiralenOla/Scoary ), a tool complementary to Roary. Scoary has implemented several GWAS methods into one tool. Scoary needs a **comma** separated list of strain characteristics (phenotypes) called traits.csv. 
 
-Copy and paste the columns with the names and patient outcome from the tab "annotation.txt" in a file from the assembly statistics excel file, including the "Name<tab>Mortality" header. Any texteditor can be used but in this example mcedit is used. You can also get the file from the previous lesson. The file is here: [https://aldertzomer.github.io/Microbial-Genomics-2020/files/annotations.txt](https://aldertzomer.github.io/Microbial-Genomics-2020/files/annotations.txt) . The file can also be made on your own computer and uploaded using filezilla, scp, etc. The header (first line) should start with Name (replace the word "Isolate") followed by the phenotype (Mortality). 
+Copy and paste the columns with the names and patient outcome from the tab "annotations.txt" in a file from the assembly statistics excel file, including the "Name<tab>Mortality" header. Any texteditor can be used but in this example nano is used. You can also get the file from the previous lesson. The file is here: [https://raw.githubusercontent.com/aldertzomer/Microbial-Genomics-2021/gh-pages/files/annotations.txt](https://raw.githubusercontent.com/aldertzomer/Microbial-Genomics-2021/gh-pages/files/annotations.txt) . The file can also be made on your own computer and uploaded using your webbrowser. The header (first line) should start with "Name" (replace the word "Isolate") followed by the phenotype (Mortality). 
 
 ~~~
 $ cd ~/orthology
-$ mcedit traits.txt
-#copy paste the two columns (press shift, right or middle mouse button), save the file, exit mcedit
-#the following line transforms the tabs into commas
-$ cat traits.txt |tr "\t" "," > traits.csv
+$ wget https://raw.githubusercontent.com/aldertzomer/Microbial-Genomics-2021/gh-pages/files/annotations.txt
+$ nano annotations.txt #change Isolate to Name
+$ cat annotations.txt |tr "\t" "," > traits.csv
 ~~~
 {: .bash}
 
