@@ -19,7 +19,7 @@ keypoints:
 
 ## Sequence assembly and assembly quality
 
-Once your assembly has started, you can follow the lecture by Professor Bas Dutilh. This lecture details assembly strategies, different kind of assemblers and ways of assessing assembly quality and binning of contigs when doing metagenomic assembly. 
+Once your assembly has started, you can follow the lecture by Professor Bas Dutilh. This lecture details assembly strategies, different kind of assemblers and ways of assessing assembly quality and binning of contigs when doing metagenomic assembly. After the assembly lecture there is a lunch break. If you have any questions please put up your hand. You should be able to answer the question why a short k-mer (21 bp in our example) results in a poorer assembly than a longer k-mer (e.g. 55 bp). You should also know the difference between the contigs and the scaffolds. 
 
 The lecture can be found here: [https://www.youtube.com/watch?v=mHmMbPxKmn0](https://www.youtube.com/watch?v=mHmMbPxKmn0) 
 
