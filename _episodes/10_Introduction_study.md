@@ -41,7 +41,8 @@ $ mkdir reads
 $ ls
 ~~~
 
-You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads](https://klif.uu.nl/klif/mgen/reads/) and download the appropriate files. You will need two files for each sample, the forward and reverse file. In the example I have picked the top two, but please take a look at the Google Spreadsheets file which samples are assigned to you. You will need to get four files. 
+You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads](https://klif.uu.nl/klif/mgen/reads/) and download the appropriate files. You will need two files for each sample, the forward and reverse file. In the example I have picked the top two, but please take a look at the  the
+> [Google Sheets table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) which samples are assigned to you. You will need to get four files. 
 
 ~~~
 $ cd ~/reads
