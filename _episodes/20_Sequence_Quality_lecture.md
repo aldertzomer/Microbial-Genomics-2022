@@ -19,6 +19,9 @@ We will make use of a prerecorded lecture by Professor Bas Dutilh, from Theoreti
 
 [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
-The lecture will take approximately 20 minutes. 
+The lecture will take approximately 20 minutes. After that there is time for a break.
+
+
+
 
 {% include links.md %}
