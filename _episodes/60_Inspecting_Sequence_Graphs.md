@@ -14,7 +14,7 @@ keypoints:
 
 ## Introducing the sequence graph
 
-In the assembly lecture the concept of a sequence graph was introduced. It is possible to view this graph using the tool Bandage [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/). You can download the file on the link, unzip it, and follow the installation instructions. 
+In the assembly lecture the concept of a sequence graph was introduced. It is possible to view this graph using the tool Bandage [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/). You can download the file in the link, unzip it, and follow the installation instructions. 
 
 ### Examining the file containing the sequence graph
 
