@@ -29,6 +29,27 @@ The server we will be using has host address [Cocalc site](https://cocalc4.scien
 
 ### Where are the files located
 
-In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on. Familiarize yourself a bit with the terminal in Cocalc and then move to the next part of the course.
+In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on. Familiarize yourself a bit with the terminal in Cocalc.
   
-  
+### Getting the Illumina read files
+
+First we need to make an appropriate folder for your read files. In the example we will be making use of the folder called "reads"
+
+~~~
+$ cd ~
+$ mkdir reads
+$ ls
+~~~
+
+You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads](https://klif.uu.nl/klif/mgen/reads/) and download the appropriate files. You will need two files for each sample, the forward and reverse file. In the example I have picked the top two, but please take a look at the Google Spreadsheets file which samples are assigned to you. You will need to get four files. 
+
+~~~
+$ cd ~/reads
+$ wget https://klif.uu.nl/klif/mgen/reads/ERR326690_1.fastq.gz
+$ wget https://klif.uu.nl/klif/mgen/reads/ERR326690_2.fastq.gz
+$ wget https://klif.uu.nl/klif/mgen/reads/ERR326694_1.fastq.gz
+$ wget https://klif.uu.nl/klif/mgen/reads/ERR326694_2.fastq.gz
+$ ls
+~~~
+
+In the above example we have downloaded the read files. Why are there two files per sample? Please continue on with the next part of the course. 
