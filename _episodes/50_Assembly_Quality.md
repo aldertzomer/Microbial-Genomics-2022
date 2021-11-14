@@ -38,7 +38,7 @@ We can generate the N50, the N75 or N90 by hand, but we will also be making use 
 
 Quast can be run by the following commandline and will generate a folder called quast_ERR326690 containing interesting statistics:
 ~~~
-$ quast.py scaffolds.fasta -o quast_ERR326690
+$ quast.py scaffolds.fasta -o quast_ERR326690 --min-contig 0
 ~~~
 {: .bash}
 
@@ -49,11 +49,12 @@ $ cat scaffolds.fasta  |grep ">" |cut -f 4 -d _
 {: .bash}
 
 
-Access the folder using your webbrowser (point it to http://3.139.141.189/homes/ ) and go to the right folder. 
+Access the folder using your webbrowser and go to the right folder. 
 
-Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool. Is there a difference? why? ( investigate the "--min-contig " option in QUAST)
 
-Question 2: Think of a few situations where genome size, number of contigs or N50 would be less useful
+## Question 1: Determine the N50 and number of contigs by hand and by using the QUAST tool with and without the --min-contig option. Is there a difference? why? 
+
+## Question 2: Think of a few situations where genome size, number of contigs or N50 would be less useful
 
 
 ### Assessing the quality using single copy chromosomal marker genes.
