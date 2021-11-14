@@ -2,7 +2,7 @@
 start: false
 title: "Sequence Read Quality Lecture"
 exercises: 0
-teaching: 20
+teaching: 30
 questions:
 - "How does sequencing work"
 - "Where do the errors come from"
