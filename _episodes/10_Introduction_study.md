@@ -16,8 +16,7 @@ keypoints:
 
 ## Introduction
 
-We will be making use of the files on the MS Teams site. 
-The Word document contains the link to the shared documents, the IP address of the server, etc. 
+We will be making use of the files on the [Google Cocalc site](https://cocalc4.science.uu.nl/). 
 
 ### Dataset
 
@@ -26,10 +25,10 @@ Introduction to the dataset is given in the powerpoint. In total we will be anal
 ### How to login
 
 Follow the instructions at as before. 
-The server we will be using has ip address 3.139.141.189. Please login using SSH (exactly like before). Use of MobaXterm, PuTTY, ssh is recommended. 
+The server we will be using has host address [Google Cocalc site](https://cocalc4.science.uu.nl/). Please login using your webbrowser. Click on "New", top left and open a "Linux Terminal". Give it an appropriate name so you can find it again later. 
 
 ### Where are the files located
 
-In your home folder (~/), you will find the directory "reads" which contains read files used in this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on.
+In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on.
   
   
