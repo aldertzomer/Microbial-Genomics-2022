@@ -15,7 +15,7 @@ keypoints:
 
 ## Sequencing quality
 
-We will make use of a prerecorded lecture by Bas Dutilh, lecturer at Theoretical Biology and Bioinformatics. 
+We will make use of a prerecorded lecture by Professor Bas Dutilh, from Theoretical Biology and Bioinformatics at UU and Jena University in Germany. 
 
 [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
