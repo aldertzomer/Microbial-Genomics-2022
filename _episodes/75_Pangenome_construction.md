@@ -62,7 +62,7 @@ $ ls ~/gff/*.gff
 ~~~
 {: .source}
 
-then we can go to your home folder again and start roary. the -p 1 option tells Roary to use two CPU cores, the -s option tells it to disregard genetic context, as we are looking at draft assemblies with different contigs, the -r option generates some interesting plots in R. The 1> and 2> redirect the standard screen output and the error output to a file for later viewing. The -f option tells it where to store the output files (the folder orthology). Roary needs quite some CPU power. We are using the 1> and 2> redirects to store the screen outputs as it generates a lot of noise. 1> redirects the standard output, 2> redirects the error output. 
+Then we can go to your home folder again and start roary. The -s option tells it to disregard genetic context, as we are looking at draft assemblies with different contigs and they are not ordered, the -r option generates some interesting plots in R. The 1> and 2> redirect the standard screen output and the error output to a file for later viewing. The -f option tells it where to store the output files (the folder orthology). Roary needs quite some CPU power. We are using the 1> and 2> redirects to store the screen outputs as it generates a lot of noise. 1> redirects the standard output, 2> redirects the error output. 
 
 ~~~
 $ cd ~
