@@ -26,7 +26,7 @@ Genome annotation includes prediction of protein-coding genes, as well as other 
 Have a look at the 50 first lines of your genomes using head. In this example the folder with assembly ERR029207 is used. This example assumes your assembly outputs from SPADES are in the folder "assembly".
 
 ~~~
-$ head -n50 ~/assembly/ERR029207/scaffolds.fasta
+$ head -n50 ~/assembly/ERR326690/scaffolds.fasta
 ~~~
 {: .source}
 
