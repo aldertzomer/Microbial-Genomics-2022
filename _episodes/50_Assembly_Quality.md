@@ -36,7 +36,7 @@ It can be thought of as the point of half of the mass of the distribution; the n
 
 We can generate the N50, the N75 or N90 by hand, but we will also be making use of the tool called QUAST ( http://quast.sourceforge.net/quast ). The following Excel spreadsheet can help you generate it by hand [https://github.com/aldertzomer/Microbial-Genomics-2021/raw/gh-pages/files/How%20to%20calculate%20N50_N80_N90.xlsx](https://github.com/aldertzomer/Microbial-Genomics-2021/raw/gh-pages/files/How%20to%20calculate%20N50_N80_N90.xlsx).
 
-Quast can be run by the following commandline and will generate a folder called quast_ERR326690 containing interesting statistics:
+Quast can be run by the following commandline and will generate a folder called quast_ERR326690 containing interesting statistics. Read the file report.txt.
 ~~~
 $ quast.py scaffolds.fasta -o quast_ERR326690 --min-contig 0
 ~~~
