@@ -38,7 +38,7 @@ Let's copy the first contig including the header by moving over it with the mous
 > field. Choose the genetic code (translation table) 11. Start the search by pressing 'submit'. 
 > This will open the Open Reading Frame viewer.
 > 
-> Search for the longest ORF. If you have found it, click on 'Mark'. Submit the longest ORF to BLAST.
+> Search for the longest ORF. If you have found it, click on 'Mark'. Submit the longest ORF to BLAST, use the non redundant protein (nr) database.
 > 
 > How will this ORF be annotated? Is it a gene or something else? What does the gene do? Fill your annotation into the
 > [table](https://docs.google.com/spreadsheets/d/1xjiliy_USyMwiyzEgWhpn8_109F7Z3jPM_f7Jp-lOb8/edit?usp=sharing) under the header ERR029207_ORF.
