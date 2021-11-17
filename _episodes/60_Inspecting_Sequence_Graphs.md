@@ -21,7 +21,7 @@ In the assembly lecture the concept of a sequence graph was introduced. It is po
 View the sequence graph using less:
 
 ~~~
-$ cd ~/assemblies/ERR326690/
+$ cd ~/assembly/ERR326690/
 $ ls
 $ less -S assembly_graph.fastg
 >EDGE_1_length_4276_cov_92.8356:EDGE_743_length_70_cov_235.8';
