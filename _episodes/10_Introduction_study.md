@@ -52,4 +52,4 @@ $ wget https://klif.uu.nl/klif/mgen/reads/ERR326694_2.fastq.gz
 $ ls
 ~~~
 
-In the above example we have downloaded the read files. Why are there two files per sample? Please continue on with the next part of the course. 
+In the above example we have downloaded the read files. Why are there two files per sample? Please continue on with the next part of the course which is a lecture on sequence quality of read files. 
