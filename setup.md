@@ -11,7 +11,7 @@ ask for help, or arrive early on the first day to
 get help.
 
 ## Windows
-### Putty
+### Putty - Not needed for the Cocalc based course
 You will need a terminal program to access the remote machine. This is already available on Mac and Linux.
 - Go to the [Putty download page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - Click on putty.exe link to download the install file
@@ -20,7 +20,7 @@ You will need a terminal program to access the remote machine. This is already a
 
 ## Linux, Windows and Mac 
 
-### FTP Client (Filezilla)
+### FTP Client (Filezilla) - Not needed for the Cocalc based course
 An FTP client will help you transfer files easily between your computer and the cloud.
 
 - Go to the [Filezilla](https://filezilla-project.org/download.php?show_all=1) download page
@@ -34,7 +34,7 @@ An FTP client will help you transfer files easily between your computer and the 
 - Click and the button and install Chrome
 - Other browsers will likely work as well but no guarantees
 
-### Visualization software
+### Visualization software 
 - Go to [https://github.com/rambaut/figtree/releases](https://github.com/rambaut/figtree/releases) and download Figtree (zip for windows, dmg for mac, .tgz for linux)
 - Go to [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/) and download Bandage
 
