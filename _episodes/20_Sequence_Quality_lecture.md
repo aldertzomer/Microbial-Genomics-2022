@@ -15,9 +15,9 @@ keypoints:
 
 ## Sequencing quality
 
-We will make use of a prerecorded lecture by Professor Bas Dutilh, from Theoretical Biology and Bioinformatics at UU and Jena University in Germany. 
+Next up is a presentation on sequence read quality and sequencing methods. The slides are available on the teams site.
 
-[https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
+If you are following this course on your own you can make use of a prerecorded lecture by Professor Bas Dutilh, from Theoretical Biology and Bioinformatics at UU and Jena University in Germany. [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
 The lecture will take approximately 20 minutes. After that there is time for a break and time for asking questions.
 
