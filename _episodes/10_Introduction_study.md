@@ -25,7 +25,7 @@ Introduction to the dataset is given in the powerpoint. In total we will be anal
 ### How to login
 
 Follow the instructions at as before. 
-The server we will be using has host address [Cocalc site](https://cocalc4.science.uu.nl/). Please login using your webbrowser. Click on "New", top left and open a "Linux Terminal". Give it an appropriate name so you can find it again later. 
+The server we will be using has host address [https://cocalc4.science.uu.nl/](https://cocalc4.science.uu.nl/). Please login using your webbrowser. Click on "New", top left and open a "Linux Terminal". Give it an appropriate name so you can find it again later. 
 
 ### Where are the files located
 
