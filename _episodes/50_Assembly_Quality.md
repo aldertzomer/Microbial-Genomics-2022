@@ -92,7 +92,7 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 
 > ## Challenge: What is the quality of your genome assemblies
 >
->  Determine the number of contigs, assembly sizes, N50, completeness and heterogeneity for your genomes and enter these in this
+>  Determine the number of contigs, assembly sizes, N50, completeness for your genomes and enter these in this
 > [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0)
 >
 > Hint:
