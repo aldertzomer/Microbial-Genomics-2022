@@ -37,10 +37,9 @@ To run SPAdes we will use the spades.py command with the --only-assembler option
 
 ~~~
 $ ls
-$ #directly calling python3 as interpreter from executable .py files is broken on cocalc. use this workaround to run spades.py
 $ for sample in ERR326690 ERR326694  ; do
-    python3 /gnu/store/jrsh7yiyqyy13v1qhhx7l9psl457csc5-profile/bin/spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample"_k21 --isolate -t 1 -k21
-    python3 /gnu/store/jrsh7yiyqyy13v1qhhx7l9psl457csc5-profile/bin/spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample" --isolate -t 1
+    spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample"_k21 --isolate -t 1 -k21
+    spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample" --isolate -t 1
   done
 
 $ cd ~/assembly
