@@ -88,7 +88,7 @@ $ checkm taxonomy_wf species "Escherichia coli" genomes checkmout -t 1 -x fasta 
 ~~~
 {: .bash}
 
-The file checkmoutput.tsv contains three relevant outputs: completeness, contamination and heterogeneity. Completeness is how complete your genome is, contamination lists if there is another species present, heterogeneity lists if there is possibly contamination with a different strain of the same species (ignore this value in most species).
+The file checkmoutput.tsv contains three relevant outputs: completeness, contamination and heterogeneity. Completeness is how complete your genome is, contamination lists if there is another species present, heterogeneity lists if there is possibly contamination with a different strain of the same species (ignore this value in most species). A completeness of >95% is usually good and a contamination of <5% is also good. This differs per species, but it's important to remember what these values are and how they can be used. 
 
 > ## Challenge: What is the quality of your genome assemblies
 >
