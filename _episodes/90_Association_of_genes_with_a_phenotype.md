@@ -19,7 +19,7 @@ We will therefore try to find out if there are specific virulence factors that a
 
 ### Bacterial Genome Wide Association Studies (GWAS)
 
-An excellent primer on bacterial GWAS is available here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743258/ . We will make use of the tool "Scoary" ( https://github.com/AdmiralenOla/Scoary ), a tool complementary to Roary. Scoary has implemented several GWAS methods into one tool. Scoary needs a **comma** separated list of strain characteristics (phenotypes) called traits.csv. 
+An excellent primer on bacterial GWAS is available here: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3743258/] . We will make use of the tool "Scoary" [ https://github.com/AdmiralenOla/Scoary], a tool complementary to Roary. Scoary has implemented several GWAS methods into one tool. Scoary needs a **comma** separated list of strain characteristics (phenotypes) called traits.csv. 
 
 Copy and paste the columns with the names and patient outcome from the tab "annotations.txt" in a file from the assembly statistics excel file, including the "Name<tab>Mortality" header. Any texteditor can be used but in this example nano is used. You can also get the file from the previous lesson. The file is here: [https://raw.githubusercontent.com/aldertzomer/Microbial-Genomics-2021/gh-pages/files/annotations.txt](https://raw.githubusercontent.com/aldertzomer/Microbial-Genomics-2021/gh-pages/files/annotations.txt) . The file can also be made on your own computer and uploaded using your webbrowser. The header (first line) should start with "Name" (replace the word "Isolate") followed by the phenotype (Mortality). 
 
