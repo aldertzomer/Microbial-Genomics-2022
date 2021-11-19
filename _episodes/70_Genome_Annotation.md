@@ -165,7 +165,7 @@ Let's check the output:
 ~~~
 $ cd ~/annotation/
 $ cat */*.gbk |head -n 100
-$ cat */*.gff |head -n 200
+$ cat */*.gff |head -n 400
 $ cat */*.txt
 ~~~
 {: .bash}
