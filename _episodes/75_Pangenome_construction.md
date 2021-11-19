@@ -32,7 +32,7 @@ For this, we need to find if the genes are present in the annotated files.
 > Hints:
 > ~~~
 > grep -A 10 'genename' *.gbk 
-> gives you the first ten line after the gene name was found
+> #gives you the first ten line after the gene name was found. Remember that grep is case sensitive!
 > ~~~
 > > ## Solution
 > >
@@ -46,7 +46,7 @@ For this, we need to find if the genes are present in the annotated files.
 > {: .solution}
 {: .challenge}
 
-Note for each genome if the gene has been found or not. Mark them as present (1) in this [file]( https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0 ), else mark the gene that differs or is absent as 0.
+Note for each genome if the gene has been found or not. Mark them as present (1) in this [file]( https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0 ), else mark the gene that differs or is absent as 0. 
 
 
 ## Pangenome analysis
