@@ -172,7 +172,7 @@ $ cat */*.txt
 
 The .txt files contain some statistics on how many annotated genes are found. The .gbk file contains a human readable format of the annotation, the .gff file a tabular format. 
 
-> ## Challenge: How many coding regions did PROKKA find in the contigs??
+> ## Challenge: How many coding regions did PROKKA find in the contigs?
 >
 > Find out how many coding regions there are in the *S. pneumoniae* isolates. Enter your solution in the
 > [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) under the head 'Number of CDS'
@@ -263,5 +263,32 @@ Is your solution the same or do you get other numbers of coding regions? What co
 if the solution differs? 
 
 Repeat the same exercise with the key word 'tRNA' to see how many tRNAs there are and fill into the [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) under the head 'tRNA'
+
+
+> ## Challenge 2: How many hypothetical proteins are in the annotation?
+>
+> Find out how coding regions without a function assigned there are in the *S. pneumoniae* isolates. Enter your solution in the
+> [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) under the head 'hypothetical proteins'
+>
+> Hint:
+> ~~~
+> $ grep "hypothetical protein" 
+> ~~~
+> prints matching lines for each input file.
+> 
+> > ## Solution
+> >
+> > 
+> > ~~~
+> > $ cd ~/annotation/ERR326690
+> > $ grep -c "hypothetical protein" ERR326690.gbk
+> >  
+> > ERR326690/ERR326690.txt:CDS: 479
+> > 
+> > About 480 *S. pneumoniae* genes cannot be assigned a function by Prokka. What would be a method to figure out what these genes are coding for?
+> > ~~~
+> > {: .output}
+> {: .solution}
+{: .challenge}
 
 {% include links.md %}
