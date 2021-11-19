@@ -285,7 +285,7 @@ Repeat the same exercise with the key word 'tRNA' to see how many tRNAs there ar
 > >  
 > > ERR326690/ERR326690.txt:CDS: 479
 > > 
-> > About 480 *S. pneumoniae* genes cannot be assigned a function by Prokka. What would be a method to figure out what these genes are coding for?
+> > About 480 S. pneumoniae genes cannot be assigned a function by Prokka. What would be a method to figure out what these genes are coding for? What could be the reason the number of hypothetical proteins is lower?
 > > ~~~
 > > {: .output}
 > {: .solution}
