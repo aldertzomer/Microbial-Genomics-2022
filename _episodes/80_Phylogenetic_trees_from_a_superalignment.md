@@ -78,7 +78,7 @@ $ FastTree superalignment.fasta > superalignment.tree
 ~~~
 {: .bash} 
 
-Inspect the superalignment. How many residues are in the alignment?. Also download the tree and view it using Figtree. Does it look comparable to the gene presence absence tree?  Look at the reference isolate. FastTree is a tool for a quick first tree. Better tools would be RaxML (https://cme.h-its.org/exelixis/web/software/raxml/) or IQ-TREE (http://www.iqtree.org/) however these take quite some time to run.
+Inspect the superalignment. How many residues are in the alignment?. Also download the tree and view it using Figtree which can be downloaded here: [https://github.com/rambaut/figtree/releases](https://github.com/rambaut/figtree/releases) . Does it look comparable to the gene presence absence tree?  Look at the reference isolate. FastTree is a tool for a quick first tree. Better tools would be RaxML (https://cme.h-its.org/exelixis/web/software/raxml/) or IQ-TREE (http://www.iqtree.org/) however these take quite some time to run.
 
 ## Visualizing phenotypes
 
