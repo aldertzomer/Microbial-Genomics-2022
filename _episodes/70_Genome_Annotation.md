@@ -164,11 +164,13 @@ Let's check the output:
 
 ~~~
 $ cd ~/annotation/
+$ cat */*.gbk |head -n 100
+$ cat */*.gff |head -n 200
 $ cat */*.txt
 ~~~
 {: .bash}
 
-The .txt files contain some statistics on how many annotated genes are found etc. 
+The .txt files contain some statistics on how many annotated genes are found. The .gbk file contains a human readable format of the annotation, the .gff file a tabular format. 
 
 > ## Challenge: How many coding regions did PROKKA find in the contigs??
 >
