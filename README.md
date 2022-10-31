@@ -1,4 +1,4 @@
-Course Microbial Genomics 2021
+Course Microbial Genomics 2022
 ==============
 
 This lessons were partially based on the [Data Carpentry Genomics lesson](http://www.datacarpentry.org/genomics-workshop/) and are styled with the [Software Carpentry lesson template](https://swcarpentry.github.io/lesson-example/) which are made available under the (Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) adapted by Anita Schuerch, Bas Dutilh and Aldert Zomer.
