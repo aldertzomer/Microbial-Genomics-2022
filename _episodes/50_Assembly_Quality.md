@@ -21,7 +21,7 @@ Getting the genome size is basically just counting the bases in a fasta file and
 
 ~~~
 $ cd ~/assembly/ERR326690
-$ cat scaffolds.fasta |grep -v ">" |tr -d "\n" | wc
+$ cat scaffolds.fasta |grep -v ">" |tr -d "\n" | wc -c
 ~~~
 {: .bash}
 
