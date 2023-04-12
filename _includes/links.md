@@ -3,7 +3,6 @@
 [concept-maps]: http://carpentries.github.io/instructor-training/05-memory/
 [email]: mailto:a.l.zomer@uu.nl
 [contrib-covenant]: http://contributor-covenant.org/
-[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md
 [cran-checkpoint]: https://cran.r-project.org/web/packages/checkpoint/index.html
 [cran-knitr]: https://cran.r-project.org/web/packages/knitr/index.html
 [cran-stringr]: https://cran.r-project.org/web/packages/stringr/index.html
