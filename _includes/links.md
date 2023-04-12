@@ -1,7 +1,7 @@
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
 [concept-maps]: http://carpentries.github.io/instructor-training/05-memory/
-[email]: mailto:lessons@software-carpentry.org
+[email]: mailto:a.l.zomer@uu.nl
 [contrib-covenant]: http://contributor-covenant.org/
 [contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md
 [cran-checkpoint]: https://cran.r-project.org/web/packages/checkpoint/index.html
@@ -29,7 +29,6 @@
 [rubygems]: https://rubygems.org/pages/download/
 [styles]: https://github.com/swcarpentry/styles/
 [training]: http://swcarpentry.github.io/instructor-training/
-[workshop-repo]: {{ site.workshop_repo }}
 [yaml]: http://yaml.org/
 [coc]: https://software-carpentry.org/conduct/
 [coc-reporting]: https://software-carpentry.org/CoC-reporting/
