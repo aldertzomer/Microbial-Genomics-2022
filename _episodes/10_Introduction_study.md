@@ -20,7 +20,7 @@ We will be making use of the files on the [Cocalc4 site](https://cocalc4.science
 
 ### Dataset
 
-Introduction to the dataset is given in the powerpoint. In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141).
+Introduction to the dataset is given in the [presentation](files/Aldert Zomer Introduction lecture and GWAS lecture.pdf). In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141).
 
 ### How to login
 
