@@ -20,7 +20,7 @@ We will be making use of the files on the [Cocalc4 site](https://cocalc4.science
 
 ### Dataset
 
-Introduction to the dataset is given in the [presentation](https://github.com/aldertzomer/Microbial-Genomics-2022/blob/gh-pages/files/Aldert%20Zomer%20Introduction%20lecture%20and%20GWAS%20lecture.pdf). In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141).
+Introduction to the dataset is given in the [presentation](https://klif.uu.nl/klif/mgen/reads/intro.pdf). In total we will be analyzing 62 genomes, of which one is a closed reference genome (OXC141).
 
 ### How to login
 
