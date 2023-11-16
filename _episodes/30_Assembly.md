@@ -42,6 +42,12 @@ $ for sample in ERR326690 ERR326694  ; do
     spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample" --isolate -t 1
   done
 
+#if you run this on cocalc3 which has an issue with python3, please do the following:
+for sample in ERR326690 ERR326694  ; do
+    python /gnu/store/8v1ilv98y5wp3n25si2fbzhdv7s7iafv-profile/bin/spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample"_k21 --isolate -t 1 -k21
+    python /gnu/store/8v1ilv98y5wp3n25si2fbzhdv7s7iafv-profile/bin/spades.py -1 "$sample"_1.fastq.gz -2 "$sample"_2.fastq.gz -o ~/assembly/"$sample" --isolate -t 1
+done
+
 $ cd ~/assembly
 $ ls 
 $ cd ERR326690
