@@ -18,6 +18,6 @@ keypoints:
 
 ## Bacterial Genome Wide Association Studies (GWAS)
 
-We will follow a live lecture on GWAS. There will also be time to ask questions about the previous day or the day ahead.
+We will follow a live lecture on GWAS. There will also be time to ask questions about the previous day or the day ahead. The lecture is available here: [https://klif.uu.nl/klif/mgen/GWAS.pdf](https://klif.uu.nl/klif/mgen/GWAS.pdf)
 
 The lecture takes 45-60 minutes depending on the questions. 
