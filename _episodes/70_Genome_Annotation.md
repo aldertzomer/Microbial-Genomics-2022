@@ -31,7 +31,7 @@ $ head -n50 ~/assembly/ERR326690/scaffolds.fasta
 {: .source}
 
 
-Let's copy the first contig including the header by moving over it with the mouse and pressing the left mouse button to copy.
+Let's copy these first 50 lines of the scaffold including the header by moving over it with the mouse and pressing the left mouse button to copy.
 
 > ## Exercise: Annotate a gene
 > Go to [ORFfinder](https://www.ncbi.nlm.nih.gov/orffinder/). Paste the sequence including the header into the query 
