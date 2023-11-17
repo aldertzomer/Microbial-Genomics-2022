@@ -15,7 +15,7 @@ keypoints:
 
 ## Sequencing quality
 
-Next up is a presentation on sequence read quality and sequencing methods. The slides are available on the teams site.
+Next up is a presentation on sequence read quality and sequencing methods. The slides are available at [https://klif.uu.nl/klif/mgen/MicrobialGenomics_sequencingQuality_Linda.pdf](https://klif.uu.nl/klif/mgen/MicrobialGenomics_sequencingQuality_Linda.pdf) .
 
 If you are following this course on your own you can make use of a prerecorded lecture by Professor Bas Dutilh, from Theoretical Biology and Bioinformatics at UU and Jena University in Germany. [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
