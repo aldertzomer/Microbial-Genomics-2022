@@ -4,7 +4,7 @@ root: .
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-Edition November 2023.
+Edition November 2025.
 
 > ## Prokaryotic microbes - Assembly, annotation, pangenome analysis and GWAS
 > This practical is part of the Microbial Genomics practical course of Utrecht University
