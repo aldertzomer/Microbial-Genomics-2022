@@ -32,7 +32,7 @@ Questions: What does the -v option do in the grep command? And what does the wc 
 From wikipedia:
 N50 can be described as a weighted median statistic such that 50% of the entire assembly is contained in contigs or scaffolds equal to or larger than this value. Given a set of contigs, each with its own length, the N50 length is defined as the shortest sequence length at 50% of the genome. The N50 is similar to a mean or median of lengths, but has greater weight given to the longer contigs. The N75 is defined as the shortest sequence length at 75% of the genome.
 
-<img width="1156" height="672" alt="image" src="https://github.com/user-attachments/assets/6647437c-3737-445f-8f6c-67b97c056b93" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/6647437c-3737-445f-8f6c-67b97c056b93" />
 
 It can be thought of as the point of half of the mass of the distribution; the number of bases from all contigs longer than the N50 will be close to the number of bases from all contigs shorter than the N50. For example, consider 7 contigs with the lengths 30,40,50,50,60,70 and 100; their sum is 400, half of the sum is 200, and the size of the genome also happens to be 400. 50% of this assembly would be 100+70+60 (half the length of the sequence, starting from the largest). Thus the N50=60, which is the size of the contig which, along with the larger contigs, contain half of sequence of a particular genome. Note: When comparing N50 values from different assemblies, the genomes must have similar sizes.
 
