@@ -41,7 +41,7 @@ Let's copy these first 50 lines of the scaffold including the header by moving o
 > Search for the longest ORF. If you have found it, click on 'Mark'. Submit the longest ORF to BLAST, use the non redundant protein (nr) database.
 > 
 > How will this ORF be annotated? Is it a gene or something else? What does the gene do? Fill your annotation into the
-> [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) under the header ERR029207_ORF.
+> [table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) under the header ERR326690_ORF.
 > 
 {: .challenge}
 
