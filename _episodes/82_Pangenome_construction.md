@@ -87,9 +87,9 @@ Some genes are present in all genomes, some are present in some and absent in ot
 >
 > Copy accessory_binary_genes.fa.newick and gene_presence_absence.csv to your own computer. 
 > Open [phandango](http://jameshadfield.github.io/phandango/) in Chrome, drop file accessory_binary_genes.fa.newick and
-> then file gene_absence_presence.csv. 
+> then file gene_presence_absence.csv. 
 > ~~~
-> Download the accessory_binary_genes.fa.newick and gene_absence_presence.csv files using your webbrowser. Drag and drop them into the phandango website. Look at the isolates that are closest to OXC141 in your tree. 
+> Download the accessory_binary_genes.fa.newick and gene_presence_absence.csv files using your webbrowser. Drag and drop them into the phandango website. Look at the isolates that are closest to OXC141 in your tree. 
 > ~~~
 > 
 > 
