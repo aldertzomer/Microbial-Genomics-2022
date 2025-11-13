@@ -74,7 +74,7 @@ $ roary ~/gff/*.gff -s -r -f orthology >roary.stdout.log 2> roary.error.log
 > ## Discussion: Open or closed pangenome?
 > After roary finishes, have a look at the summary file in the output folder. How many core and pangenome genes are there? Visit the
 > definition of an open and closed pangenome [here](http://www.metagenomics.wiki/pdf/definition/pangenome). 
-> Does *S. pneumoniae* have a closed or an open pangenome? View the file Rplots.pdf or the file conserved_vs_total_genes.png in your browser to have a different visualization of the core and pan genome. What is the cause of an open pan genome and where do extra acccesory genomes come from, which mechanisms are responsible?
+> Does *S. pneumoniae* have a closed or an open pangenome? View the file Rplots.pdf [here](https://klif.uu.nl/klif/mgen/orthology/Rplots.pdf) or the file conserved_vs_total_genes.png in your browser to have a different visualization of the core and pan genome. What is the cause of an open pan genome and where do extra acccesory genomes come from, which mechanisms are responsible?
 {: .discussion}
 
 
