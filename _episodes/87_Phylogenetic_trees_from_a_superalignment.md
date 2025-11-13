@@ -36,9 +36,17 @@ $ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 6
 
 Question: how many ribosomal proteins are there? (use wc or just count them)
 
-Next we do some shell magic to go from a column with names to a comma separated string of gene names and we put that list in the shell variable "list"
+Next we do some shell magic to go from a column with names to a comma separated string of gene names and we put that list in the shell variable "list". To investigate how this works we can perform the command in parts:
 
 ~~~
+$ grep  "ribosomal protein" gene_presence_absence.csv
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," 
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d ","
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \"
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \" |tr "\n" ","
+$ grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \" |tr "\n" "," |sed 's/,$//'
+$ # now we put it into a variable called list
 $ list=`grep  "ribosomal protein" gene_presence_absence.csv |cut -f 1,5 -d "," |grep 62 |cut -f 1 -d "," |tr -d \" |tr "\n" "," |sed 's/,$//'`
 $ echo $list
 ~~~
