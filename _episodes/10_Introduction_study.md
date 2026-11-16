@@ -29,8 +29,8 @@ The server we will be using has host address gemini.science.uu.nl. Please login 
 
 ### Where are the files located
 
-In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on. Familiarize yourself a bit with the terminal in Cocalc.
-  
+In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on. 
+
 ### Getting the Illumina read files
 
 First we need to make an appropriate folder for your read files. In the example we will be making use of the folder called "reads"
