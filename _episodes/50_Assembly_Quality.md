@@ -122,7 +122,7 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 > > # Analyse a single file in the current folder (the .) that matches ERR326690.fasta. This does not work very well in a loop. 
 > > $ checkm taxonomy_wf species "Streptococcus pneumoniae" . checkmout -t 1 -x ERR326690.fasta  >checkmoutput.tsv
 > >
-> > # Alternatively, process all genomes in the "genomes" folder that have the extension fasta. This is useful if you have many genomes to check. 
+> > # Alternatively, process all genomes in the "genomes" folder that have the extension fasta. This is useful if you have many genomes to check. Make sure there are only .fasta files in the genomes folder. 
 > > $ cd ~
 > > $ checkm taxonomy_wf species "Streptococcus pneumoniae" genomes checkmout -t 1 -x fasta  > checkmoutput.tsv
 > > $ cat checkmoutput.tsv
