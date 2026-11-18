@@ -48,7 +48,7 @@ EDGE_4_length_221_cov_0.801205';
 
 ###  Visualizing the sequence graph
 
-Download a the sequence graph from your assembly. Open it in Bandage. Click on Draw graph. What does this remind you of?
+Do this for only one assembly. Download a the sequence graph from your assembly. Open it in Bandage. Click on Draw graph. What does this remind you of?
 Click on a few large contigs. What is the average sequencing depth? determine it by selecting all contigs and looking at the mean depth value displayed on the right. 
 
 ### Selecting a contig with high depth
