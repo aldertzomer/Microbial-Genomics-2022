@@ -57,7 +57,7 @@ Now, we will select a contig which has a 3x higher depth. Click on Scope, select
 
 ### Investigating a contig with high depth using Bandage and BLAST
 
-Click on the largest contig, should be around 3-6 kb. What do you think this contig is?  In the "Output" menu, at the top, the sequence of the selected contig can be copied to the clipboard. Figure out what the contig codes for using BLASTN [https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).  Click on the Genbank link next to the coordinates. Also record the contig number. Can you calculate the number of copies of this DNA region on the genome? Base this on the fold difference in sequencing depth of the entire genome and the contig you just selected.
+Click on the largest contig, should be around 3-6 kb. What do you think this contig is?  In the "Output" menu, at the top, the sequence of the selected contig can be copied to the clipboard. Figure out what the contig codes for using BLASTN [https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).  Click on the "Genbank" link next to the coordinates. In the resulting genbank annotation webpage, scroll down and look at the "product" tags in this 5 kb region.  Record the contig number. Can you calculate the number of copies of this DNA region on the genome? Base this on the fold difference in sequencing depth of the entire genome and the contig you just selected.
 
 ### Where are these sequences located?
 
