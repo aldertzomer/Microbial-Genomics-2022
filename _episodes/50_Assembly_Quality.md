@@ -77,14 +77,14 @@ $ checkm taxon_list > taxonlist.txt
 Obviously we want to select the closest match as possible. In the case of E. coli, we would choose "Escherichia coli". 
 
 
-CheckM can be run by the following commandline in the case of an E. coli genome called genome.fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. 
+CheckM can be run by the following commandline in the case of an E. coli genome called genome.fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. Change genome.fasta to the name of the file you want analyzed.
 ~~~
 $ 
 $ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x genome.fasta  >checkmoutput.tsv
 ~~~
 {: .bash}
 
-It is possible to run the commmand on multiple genomes for faster analyses in the folder called "genomes" on all files with the extension (-x) .fasta:
+It is possible to run the commmand on multiple genomes for faster analyses in the folder called "genomes" on all files with the extension (-x) .fasta. You have to make the "genomes" folder and copy the contigs.fasta or scaffolds.fasta files from the different assemblies into the "genomes" folder. Those files must have a unique name.
 
 ~~~
 $ checkm taxonomy_wf species "Escherichia coli" genomes checkmout -t 1 -x fasta  >checkmoutput.tsv
