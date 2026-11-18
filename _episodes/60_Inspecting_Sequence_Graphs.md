@@ -53,11 +53,11 @@ Click on a few large contigs. What is the average sequencing depth? determine it
 
 ### Selecting a contig with high depth
 
-Now, we will select a contig which has a 3x higher depth. Click on Scope, select depth range. Fill in for min depth 30 (or 100 if you have an average sequence depth of 30) and max depth 1000  (or other values, around 3x the average contig depth). Press Draw Graph. What contigs are now displayed? Why do these have a higher depth? 
+Now, we will select a contig which has a 3x higher depth. Click on Scope, select depth range. Fill in for min depth a value that is 3 times higher than your average sequencing depth of all contigs. For some genomes this is 30 if you have an average sequencing depth of 10, for some it is 90 if you have an average sequence depth of 30.  For max depth 1000x. Press Draw Graph. What contigs are now displayed? Why do these have a higher depth? 
 
 ### Investigating a contig with high depth using Bandage and BLAST
 
-Click on the largest contig, should be around 3-6 kb. What do you think this contig is?  In the "Output" menu, at the top, the sequence of the selected contig can be copied to the clipboard. Figure out what the contig codes for using BLASTN [https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).  Click on the Genbank link next to the coordinates. Also record the contig number. Can you calculate the number of copies of this DNA region on the genome?
+Click on the largest contig, should be around 3-6 kb. What do you think this contig is?  In the "Output" menu, at the top, the sequence of the selected contig can be copied to the clipboard. Figure out what the contig codes for using BLASTN [https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).  Click on the Genbank link next to the coordinates. Also record the contig number. Can you calculate the number of copies of this DNA region on the genome? Base this on the fold difference in sequencing depth of the entire genome and the contig you just selected.
 
 ### Where are these sequences located?
 
