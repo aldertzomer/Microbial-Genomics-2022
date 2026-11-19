@@ -21,7 +21,7 @@ The microbial **pangenome** is the union of genes shared by genomes of interest.
 ![Pangenome](../fig/pan-genome-figure1-1024x398.png)
 
 
-Find more information of the pangenome [here](http://www.metagenomics.wiki/pdf/definition/pangenome)
+Find more information of the pangenome [here](https://www.metagenomics.wiki/pdf/taxonomy/pangenome)
 
 ### Extract genes recX, pblB and dnaA from two genomes.
 
