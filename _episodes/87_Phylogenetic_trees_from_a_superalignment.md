@@ -90,7 +90,7 @@ Inspect the superalignment. How many residues are in the alignment?. Also downlo
 
 ## Visualizing phenotypes
 
-It is possible to color the labels of the trees using the "Import Annotations" option in Figtree or Peartree. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. The isolates in red are the patients who survived the infection. The annotations can also be imported into iTOL using the "Datasets" function, "create a dataset", "Binary" and then use the "Raw data" function to paste in the annotations.
+It is possible to color the labels of the trees using the "Import Annotations" option in Figtree or Peartree. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. Check the colors of the legend to find out who survived the infection. The annotations can also be imported into iTOL using the "Datasets" function, "create a dataset", "Binary" and then use the "Raw data" function to paste in the annotations.
 
 Is there a specific clone associated with mortality? Inspect both the gene presence absence tree and the tree from the superalignment of ribosomal proteins. 
 
