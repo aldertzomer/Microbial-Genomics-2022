@@ -86,11 +86,11 @@ $ FastTree superalignment.fasta > superalignment.tree
 ~~~
 {: .bash} 
 
-Inspect the superalignment. How many residues are in the alignment?. Also download the tree and view it using Figtree which can be downloaded here: [https://github.com/rambaut/figtree/releases](https://github.com/rambaut/figtree/releases) òr use the online tree building software iTOL which can be found here: [https://itol.embl.de](https://itol.embl.de). Does it look comparable to the gene presence absence tree?  Look at the reference isolate. FastTree is a tool for a quick first tree. Better tools would be RaxML (https://cme.h-its.org/exelixis/web/software/raxml/) or IQ-TREE (http://www.iqtree.org/) however these take quite some time to run.
+Inspect the superalignment. How many residues are in the alignment?. Also download the tree and view it using Figtree which can be downloaded here: [https://github.com/rambaut/figtree/releases] or online on [Peartree](https://peartree.live/) òr use the alternative online tree building software iTOL which can be found here: [https://itol.embl.de](https://itol.embl.de). Does it look comparable to the gene presence absence tree?  Look at the reference isolate. FastTree is a tool for a quick first tree. Better tools would be RaxML (https://cme.h-its.org/exelixis/web/software/raxml/) or IQ-TREE (http://www.iqtree.org/) however these take quite some time to run.
 
 ## Visualizing phenotypes
 
-It is possible to color the labels of the trees using the "Import Annotations" option in Figtree. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. The isolates in red are the patients who survived the infection. 
+It is possible to color the labels of the trees using the "Import Annotations" option in Figtree or Peartree. Download the file with annotations here: [annotations.txt](../files/annotations.txt) and import this file. Click on the triangle next to tip labels and select "Colour by". Select "Mortality" in the dropdown box. The isolates in red are the patients who survived the infection. The annotations can also be imported into iTOL using the "Datasets" function, "create a dataset", "Binary" and then use the "Raw data" function to paste in the annotations.
 
 Is there a specific clone associated with mortality? Inspect both the gene presence absence tree and the tree from the superalignment of ribosomal proteins. 
 
