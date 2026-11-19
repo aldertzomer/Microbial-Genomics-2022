@@ -67,7 +67,7 @@ Then we can go to your home folder again and start roary. The -s option tells it
 
 ~~~
 $ cd ~
-$ roary ~/gff/*.gff -s -r -f orthology >roary.stdout.log 2> roary.error.log
+$ roary ~/gff/*.gff -s -r -f orthology 1>roary.stdout.log 2> roary.error.log
 ~~~
 {: .bash}
 
